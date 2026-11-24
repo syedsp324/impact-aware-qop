@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QOP – Impact-aware query fixes</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%234f46e5'/><path d='M8 22l6-7 4 4 6-9' stroke='white' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="shell">
+  <aside class="side">
+    <div class="brand"><span class="logo"></span><div><b>QOP</b><small>Query fix priorities</small></div></div>
+    <nav id="nav">
+      <a href="#/priorities" data-r="priorities"><i>▲</i>Priorities</a>
+      <a href="#/queries" data-r="queries"><i>≡</i>Queries</a>
+      <a href="#/complaints" data-r="complaints"><i>✉</i>Complaints</a>
+      <a href="#/evaluation" data-r="evaluation"><i>↗</i>Evaluation</a>
+      <a href="#/activity" data-r="activity"><i>⟲</i>Activity</a>
+    </nav>
+    <div class="side-foot">
+      <div id="dbstat" class="pill">database …</div>
+      <div id="loaded" class="muted small"></div>
+    </div>
+  </aside>
+  <main>
+    <header class="top">
+      <h1 id="title">Priorities</h1>
+      <div class="top-actions">
+        <a class="btn ghost" href="/api/export/fixes.csv" id="expcsv">Export CSV</a>
+        <a class="btn ghost" href="/api/export/report.md" id="expmd">Export report</a>
+        <button class="btn ghost" id="reload" title="Re-read pipeline output files">Reload data</button>
+      </div>
+    </header>
+    <section id="view"></section>
+  </main>
+</div>
+<div id="drawer" class="drawer" aria-hidden="true"><div class="drawer-bg"></div><div class="drawer-panel" role="dialog"><button class="close" id="dclose" aria-label="Close">×</button><div id="dbody"></div></div></div>
+<div id="toast" class="toast"></div>
+<script src="/static/app.js"></script>
+</body>
+</html>

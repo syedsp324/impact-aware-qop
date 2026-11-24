@@ -1,0 +1,26 @@
+query_id,ui_text
+Q01,product detail page showing name and price of a single product
+Q02,category information lookup on the catalogue
+Q03,viewing a single order status
+Q04,my orders page listing past order history for the customer
+Q05,checkout page showing items in the cart with product names at payment step
+Q06,search bar searching products by keyword typed by the user
+Q07,browsing a category of products filtered and sorted by price
+Q08,scrolling to older orders deep in the order list pages
+Q09,product reviews section on a product page
+Q10,payment status and payment confirmation after paying for an order
+Q11,full product detail page with category and stock information
+Q12,orders list showing how many items each past order contains
+Q13,catalogue product lookup by exact name
+Q14,searching text inside customer reviews
+Q15,stock availability check for products while buying
+Q16,admin daily sales report
+Q17,admin customer export
+Q18,admin product performance report
+Q19,admin review sentiment report
+Q20,admin audit report with many pages
+Q21,listing products from several categories at once such as homepage sections
+Q22,recent orders together with their payment status
+Q23,low stock products banner shown on the homepage
+Q24,average star rating shown on product cards
+Q25,cart total amount calculation at checkout
